@@ -33,7 +33,7 @@ pnpm run generate:code
 
 ## OpenAPI Source for argo-rollouts
 
-- <https://github.com/argoproj/argo-cd/blob/master/assets/swagger.json>
+- <https://github.com/argoproj/argo-rollouts/blob/master/pkg/apiclient/rollout/rollout.swagger.json>
 
 ## OpenAPI TypeScript Code Generator
 
