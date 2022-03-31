@@ -1,6 +1,6 @@
 /**
- * @see https://github.com/argoproj/argo-cd/blob/master/assets/swagger.json
+ * @see https://github.com/argoproj/argo-rollouts/blob/master/pkg/apiclient/rollout/rollout.swagger.json
  */
-export const versions = ["v2.3.3", "v2.2.2", "v2.1.8", "v2.1.6", "v1.8.7"];
+export const versions = ["v1.2.0", "v1.1.1", "v1.0.7"];
 export const outputDir = "api-spec";
 export const sourceOutputDir = "src";

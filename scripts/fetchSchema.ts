@@ -6,7 +6,8 @@ import rimraf from "rimraf";
 import { versions, outputDir } from "./config";
 
 export const getArgoCdSwaggerSchema = async (version: string): Promise<any> => {
-  const url = `https://github.com/argoproj/argo-cd/raw/${version}/assets/swagger.json`;
+  const url = `https://github.com/argoproj/argo-rollouts/raw/${version}/pkg/apiclient/rollout/rollout.swagger.json`;
+
   try {
     const res = await fetch(url);
     return res.json();
