@@ -1,7 +1,7 @@
 # @himenon/argo-rollouts-typescript-openapi
 
 ```bash
-npm i    @himenon/argo-rollouts-typescript-openapi
+npm  i   @himenon/argo-rollouts-typescript-openapi
 pnpm i   @himenon/argo-rollouts-typescript-openapi
 yarn add @himenon/argo-rollouts-typescript-openapi
 ```
