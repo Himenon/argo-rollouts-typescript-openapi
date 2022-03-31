@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.1.3"></a>
+
+## 1.1.3 (2022-03-31)
+
+### Chores
+
+- **deps:** update libraries ([#4](https://github.com/Himenon/argo-rollouts-typescript-openapi/issues/4)) ([bed6d40](https://github.com/Himenon/argo-rollouts-typescript-openapi/commit/bed6d40))
+
 <a name="1.1.2"></a>
 
 ## 1.1.2 (2022-03-31)
