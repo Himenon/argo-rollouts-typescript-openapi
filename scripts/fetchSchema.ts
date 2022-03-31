@@ -5,7 +5,7 @@ import * as Shell from "./tools/shell";
 import rimraf from "rimraf";
 import { versions, outputDir } from "./config";
 
-export const getArgoCdSwaggerSchema = async (version: string): Promise<any> => {
+export const getArgoRolloutsSwaggerSchema = async (version: string): Promise<any> => {
   const url = `https://github.com/argoproj/argo-rollouts/raw/${version}/pkg/apiclient/rollout/rollout.swagger.json`;
 
   try {
@@ -26,7 +26,7 @@ const main = async () => {
   rimraf.sync(outputDir);
   fs.mkdirSync(outputDir, { recursive: true });
   const tasks = versions.map(async version => {
-    const result = await getArgoCdSwaggerSchema(version);
+    const result = await getArgoRolloutsSwaggerSchema(version);
     const swaggerFilename = path.join(tempDir, `swagger-${version}.json`);
     const openapiFilename = path.join(outputDir, `openapi-${version}.json`);
     fs.writeFileSync(swaggerFilename, JSON.stringify(result, null, 2), { encoding: "utf-8" });
